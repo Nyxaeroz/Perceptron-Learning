@@ -42,6 +42,7 @@ public class View {
 		return 0;
 	}
 	
+	//quick method of keeping track of results
 	public void printResult(int y, int yhat) {
 		System.out.println("X_0\tX_1\tX_2\tw_0\tw_1\tw_2\tYhat\tY\tdelta");
 		System.out.print(inputs[0] + "\t" + inputs[1] + "\t"  + inputs[2] + "\t");
